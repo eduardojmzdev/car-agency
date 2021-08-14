@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BMW XP6 M </title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/fav/site.webmanifest">
+        <link rel="mask-icon" href="assets/img/fav/safari-pinned-tab.svg" color="#5bbad5">
+
+        <!-- ============ BOX ICON ============ -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ========== REMIX ICON ========== -->
+         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!-- === SWIPER === -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+    </head>
+<body>
+    <header class="l-header " id="header">
+        <nav class="nav bd-container">
+            <!-- <a href="" class="nav__logo">Clay Doc</a> -->
+            <img loading="lazy" src="assets/img/logo_bmw.png" alt="" class="nav__logo">
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link active-link">Inicio</a></li>
+                    <li class="nav__item"><a href="#destacados" class="nav__link">Destacados</a></li>
+                    <li class="nav__item"><a href="#diseño" class="nav__link">Diseño</a></li>
+                    <li class="nav__item"><a href="#rendimiento" class="nav__link">Rendimiento</a></li>
+                    <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li> -->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="inicio">
+            <img loading="lazy" src="assets/img/home01.png" alt="" class="home__img">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <span class="home__greeting">COMPLETAMENTE NUEVA</span>
+                    <h1 class="home__name">BMW XP6 M</h1>
+                    <span class="home__profession">desde $2,580,000 MX</span>
+                    <a download="" href="#" class="button button-light">SABER MÁS</a>
+                </div>
+
+                <!-- <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                </div> -->
+
+                <div class="home__car">
+                    <img loading="lazy" src="assets/img/home02.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== SERVICES =====-->
+        <section class="services section bd-container" id="destacados">
+            <span class="section-subtitle">Caracteristicas</span>
+            <h2 class="section-title">Destacadas</h2>
+
+            <div class="services__container bd-grid">
+                
+                <div class="services__data">
+                    <h3 class="services__title">POTENCIA ELEGNATE</h3>
+                    <p class="services__description">El BMW X6 M50i demuestra superioridad con proporciones musculares y elementos distintivos de BMW X junto con tecnologías exclusivas. </p>
+                    
+                </div>
+
+                <div class="services__data">
+                    <h3 class="services__title">RENDIMINETO FASCINANTE</h3>
+                    <p class="services__description"> Con sus extremadamente potentes motores de gasolina y diesel que generan hasta 530 hp. </p>
+                    
+                </div>
+
+                <div class="services__data">
+                    <h3 class="services__title">ELEGANCIA IMRESIONANTE</h3>
+                    <p class="services__description">El interior del BMW X6 M50i guía a las tecnologías innovadoras y a la exclusividad máxima a un nuevo nivel común. </p>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== GALERIA ======-->
+        <section class="section bd-container" id="diseño">
+            <span class="section-subtitle">Diseño</span>
+            <h2 class="section-title">Galeria</h2>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"> <img loading="lazy" src="assets/img/galery03.jpg" alt=""> </div>
+                  <div class="swiper-slide"> <img loading="lazy" src="assets/img/galery02.jpg" alt=""> </div>
+                  <div class="swiper-slide"> <img loading="lazy" src="assets/img/galery01.jpg" alt=""> </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>  
+        </section>
+
+        <!-- ===== CARACTERISTICAS ===== -->
+        <section class="section bd-container" id="rendimiento">
+            <span class="section-subtitle">Elementos</span>
+            <h2 class="section-title">Rendimiento</h2>
+            <div class="feature__bottonbox">
+                <a class="feature_b button button-light-active" id="fb_1" value="feature_1"> TRANSMISIÓN</a>
+                <a class="feature_b button button-light" id="fb_2" value="feature_2"> DIRECCIÓN</a>
+                <a class="feature_b button button-light" id="fb_3" value="feature_3"> MOTOR</a>
+            </div>
+
+            <div class="feature blockdisplay" id="feature_1" value="fb_1">
+                <div class="feature__head">
+                    <h2 class="feature__title">TRANSMISIÓN DEPORTIVA</h2>
+                    <span class="feature__subtitle">CON STEPTRONIC</span>
+                </div>
+                <p class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quas officia consequatur minus enim vel recusandae vitae laboriosam quo corrupti ipsa, debitis nisi id in harum animi ea facere perferendis.</p>
+
+            </div>
+
+            <div class="feature nodisplay" id="feature_2" value="fb_2">
+                <div class="feature__head">
+                    <h2 class="feature__title">DIRECCIÓN</h2>
+                    <span class="feature__subtitle">M SERVOTRIC</span>
+                </div>
+                <p class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quas officia consequatur minus enim vel recusandae vitae laboriosam quo corrupti ipsa, debitis nisi id in harum animi ea facere perferendis.</p>
+
+            </div>
+
+            <div class="feature nodisplay" id="feature_3" value="fb_3">
+                <div class="feature__head">
+                    <h2 class="feature__title">MOTOR DE GASOLINA V8</h2>
+                    <span class="feature__subtitle">M TWINPOWER TURBO</span>
+                </div>
+                <p class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quas officia consequatur minus enim vel recusandae vitae laboriosam quo corrupti ipsa, debitis nisi id in harum animi ea facere perferendis.</p>
+
+            </div>
+        <!-- </section> -->
+
+        <!--===== DATOS =====-->
+        <!-- <section class="elementos section bd-container" id="elementos"> -->
+            <!-- <span class="section-subtitle">What i offer</span>
+            <h2 class="section-title">Services</h2> -->
+
+            <div class="elementos__container bd-grid">
+                <div>
+                    <div class="elementos__data" id="ele_data01"></div>
+                    <div class="elementos__desc">
+                        <i class='bx bx-right-arrow'></i><h3 class="elementos__tittle">Elegancia Impresionante</h3>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="elementos__data" id="ele_data02"></div>
+                    <div class="elementos__desc">
+                        <i class='bx bx-right-arrow'></i><h3 class="elementos__tittle">Deportividad Valiosa</h3>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="elementos__data" id="ele_data03"></div>
+                    <div class="elementos__desc">
+                        <i class='bx bx-right-arrow'></i><h3 class="elementos__tittle">Rendimineto Fascinante</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <a href="#" class="footer__subtitle"> 
+                        <img loading="lazy" src="assets/img/logo_blanco.png" alt="">
+                        <!-- <h3>
+                            BAYANSAG
+                        </h3> -->
+                    </a>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Contacto</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Distribuidor</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">TestDrive</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Atencion a Clientes</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Descubre</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Ventas</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Plan y Precios</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Driver Training</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">BMW Group</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Mini Mexico</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">BMW Motorrad
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Recursos Humanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 diseñado por EduardoJmz. Demo View</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== GSAP ===== -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- ===== SWIPER JS ===== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- ===== MAIN JS ===== -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
